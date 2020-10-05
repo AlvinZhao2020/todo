@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 
 class Todo extends Component {
+
     render() {
+        const {todo} = this.props
         return (
-            <div>
-                I am a todo
-            </div>
+            <li >
+                {todo.text} 
+            </li>
         );
     }
 }
