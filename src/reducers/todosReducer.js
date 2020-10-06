@@ -11,9 +11,8 @@ const todoReducer = (state=[],action)=>{
             ]
         case TOGGLE_TODO:
             return state.map(
-                todo=>{
-                    todo.id === action.id 
-                    ? {...todo,done: !todo.done} : todo
+                todo =>{
+                    // todo.id === action.id? {...todo,done:!todo.done} : todo
                 }
             )
         default:
