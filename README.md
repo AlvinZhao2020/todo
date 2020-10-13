@@ -21,6 +21,9 @@ define state in that father
 7 react-redux connect is a component that connect react component with redux frame work
 
 
+7 react-redux connect is a component that connect react component with redux frame work
+
+
 
 
 
